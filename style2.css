@@ -1,0 +1,50 @@
+* {
+box-sizing: border-box;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+
+.meni {
+margin: 0;
+padding: 8px 0;
+width: 250px;
+border: 1px solid rgba(0,0,0,0,0.12);
+life-style: none;
+background-color: #fff;
+color: rgba(0,0,0,0,0.87);
+border-radius: 4px;
+
+.meni hr {
+border: 1px solid rgba(0,0,0,0,0.12);
+}
+
+.meni li:hover {
+background-color: rgba(0,0,0,0,0.12);
+cursor: pointer;
+}
+
+.meni .material-icons {
+width: 32px;
+display: inline-block;
+vertical-align: middle;
+}
+
+.meni .precica {
+display: inline-block;
+width: 50px;
+text-align: right;
+vertical-align: middle;
+}
+
+.meni span {
+font-size: 16px;
+}
+
+.meni .material-icons,
+.meni .precica {
+color: rgba(0,0,0,0,0.54);
+}
+
+  
